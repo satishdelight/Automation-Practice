@@ -24,5 +24,5 @@ public class NewTest {
 		public void afterTest() {
 			driver.quit();			
 		}
-		//Test git push
+		//Test git push2
 }	
