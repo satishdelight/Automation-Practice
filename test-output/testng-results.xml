@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="10" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-04-25T18:54:28 EDT" name="Suite" finished-at="2020-04-25T18:54:59 EDT" duration-ms="31656">
+    <groups>
+    </groups>
+    <test started-at="2020-04-25T18:54:28 EDT" name="Test" finished-at="2020-04-25T18:54:59 EDT" duration-ms="31656">
+      <class name="com.mystore.tests.home.DeleteProduct">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.tests.home.DeleteProduct@4c1909a3]" started-at="2020-04-25T18:54:28 EDT" name="setup" finished-at="2020-04-25T18:54:54 EDT" duration-ms="26383" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addproduct(java.lang.String)[pri:0, instance:com.mystore.tests.home.DeleteProduct@4c1909a3]" started-at="2020-04-25T18:54:58 EDT" name="addproduct" data-provider="SEARCH_PRODUCT" finished-at="2020-04-25T18:54:58 EDT" duration-ms="145" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[asdasdasdaasdasd1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addproduct -->
+        <test-method signature="addproduct(java.lang.String)[pri:0, instance:com.mystore.tests.home.DeleteProduct@4c1909a3]" started-at="2020-04-25T18:54:58 EDT" name="addproduct" data-provider="SEARCH_PRODUCT" finished-at="2020-04-25T18:54:58 EDT" duration-ms="37" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[asdasdasdaasdasd2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addproduct -->
+        <test-method signature="addproduct(java.lang.String)[pri:0, instance:com.mystore.tests.home.DeleteProduct@4c1909a3]" started-at="2020-04-25T18:54:58 EDT" name="addproduct" data-provider="SEARCH_PRODUCT" finished-at="2020-04-25T18:54:58 EDT" duration-ms="36" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[asdasdasdaasdasd3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addproduct -->
+        <test-method signature="addproduct(java.lang.String)[pri:0, instance:com.mystore.tests.home.DeleteProduct@4c1909a3]" started-at="2020-04-25T18:54:58 EDT" name="addproduct" data-provider="SEARCH_PRODUCT" finished-at="2020-04-25T18:54:58 EDT" duration-ms="36" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[asdasdasdaasdasd4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addproduct -->
+        <test-method signature="addproduct(java.lang.String)[pri:0, instance:com.mystore.tests.home.DeleteProduct@4c1909a3]" started-at="2020-04-25T18:54:58 EDT" name="addproduct" data-provider="SEARCH_PRODUCT" finished-at="2020-04-25T18:54:58 EDT" duration-ms="35" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[asdasdasdaasdasd5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addproduct -->
+        <test-method signature="addproduct(java.lang.String)[pri:0, instance:com.mystore.tests.home.DeleteProduct@4c1909a3]" started-at="2020-04-25T18:54:58 EDT" name="addproduct" data-provider="SEARCH_PRODUCT" finished-at="2020-04-25T18:54:58 EDT" duration-ms="36" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[asdasdasdaasdasd6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addproduct -->
+        <test-method signature="addproduct(java.lang.String)[pri:0, instance:com.mystore.tests.home.DeleteProduct@4c1909a3]" started-at="2020-04-25T18:54:59 EDT" name="addproduct" data-provider="SEARCH_PRODUCT" finished-at="2020-04-25T18:54:59 EDT" duration-ms="46" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[asdasdasdaasdasd7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addproduct -->
+        <test-method signature="addproduct(java.lang.String)[pri:0, instance:com.mystore.tests.home.DeleteProduct@4c1909a3]" started-at="2020-04-25T18:54:59 EDT" name="addproduct" data-provider="SEARCH_PRODUCT" finished-at="2020-04-25T18:54:59 EDT" duration-ms="37" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[asdasdasdaasdasd8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addproduct -->
+        <test-method signature="addproduct(java.lang.String)[pri:0, instance:com.mystore.tests.home.DeleteProduct@4c1909a3]" started-at="2020-04-25T18:54:59 EDT" name="addproduct" data-provider="SEARCH_PRODUCT" finished-at="2020-04-25T18:54:59 EDT" duration-ms="35" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[asdasdasdaasdasd9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addproduct -->
+        <test-method signature="addproduct(java.lang.String)[pri:0, instance:com.mystore.tests.home.DeleteProduct@4c1909a3]" started-at="2020-04-25T18:54:59 EDT" name="addproduct" data-provider="SEARCH_PRODUCT" finished-at="2020-04-25T18:54:59 EDT" duration-ms="36" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[asdasdasdaasdasd10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addproduct -->
+        <test-method signature="deleteOneProduct(java.lang.String)[pri:0, instance:com.mystore.tests.home.DeleteProduct@4c1909a3]" started-at="2020-04-25T18:54:59 EDT" name="deleteOneProduct" finished-at="2020-04-25T18:54:59 EDT" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Cannot inject @Test annotated Method [deleteOneProduct] with [class java.lang.String].
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Cannot inject @Test annotated Method [deleteOneProduct] with [class java.lang.String].
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection
+at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:441)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+at org.testng.internal.Parameters.createParameters(Parameters.java:712)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:879)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:744)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:783)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteOneProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.tests.home.DeleteProduct@4c1909a3]" started-at="2020-04-25T18:54:59 EDT" name="tearDown" finished-at="2020-04-25T18:54:59 EDT" duration-ms="195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mystore.tests.home.DeleteProduct -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
