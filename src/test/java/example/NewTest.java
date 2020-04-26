@@ -23,5 +23,6 @@ public class NewTest {
 		@AfterTest
 		public void afterTest() {
 			driver.quit();			
-		}		
+		}
+		//Test git push
 }	
