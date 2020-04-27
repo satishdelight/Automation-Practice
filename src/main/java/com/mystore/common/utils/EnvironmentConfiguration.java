@@ -1,4 +1,4 @@
-package com.mystore.commom.utils;
+package com.mystore.common.utils;
 
 
 public final class EnvironmentConfiguration {

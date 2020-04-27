@@ -11,8 +11,8 @@ import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import com.mystore.commom.utils.CommonMethods;
-import com.mystore.commom.utils.BaseTest;
+import com.mystore.common.utils.BaseTest;
+import com.mystore.common.utils.CommonMethods;
 import com.mystore.pages.login.CartPage;
 import com.mystore.pages.login.HomePage;
 
@@ -79,7 +79,4 @@ public class DeleteProduct extends BaseTest {
         homePage.deleteProductFromCart("Blouse");
 		 
 	}
-	
-	
-	
 }

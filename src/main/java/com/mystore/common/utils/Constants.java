@@ -1,4 +1,4 @@
-package com.mystore.commom.utils;
+package com.mystore.common.utils;
 
 import java.io.FileInputStream;
 import java.io.InputStream;

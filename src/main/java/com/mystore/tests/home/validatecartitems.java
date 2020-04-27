@@ -3,9 +3,8 @@ package com.mystore.tests.home;
 import java.util.List;
 import org.testng.annotations.Test;
 
-import com.mystore.commom.utils.CommonMethods;
-import com.mystore.commom.utils.BaseTest;
-
+import com.mystore.common.utils.BaseTest;
+import com.mystore.common.utils.CommonMethods;
 import com.mystore.pages.login.CartPage;
 import com.mystore.pages.login.HomePage;
 

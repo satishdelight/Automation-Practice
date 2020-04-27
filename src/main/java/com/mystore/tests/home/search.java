@@ -1,6 +1,6 @@
 package com.mystore.tests.home;
 
-import com.mystore.commom.utils.BaseTest;
+import com.mystore.common.utils.BaseTest;
 
 public class search extends BaseTest{
 
