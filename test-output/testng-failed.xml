@@ -4,13 +4,13 @@
   <test thread-count="5" name="Test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.mystore.tests.home.DeleteProduct">
+      <class name="com.mystore.tests.home.validatecartitems">
         <methods>
-          <include name="deleteOneProduct"/>
-          <include name="setup"/>
           <include name="tearDown"/>
+          <include name="testCartItems"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- com.mystore.tests.home.DeleteProduct -->
+      </class> <!-- com.mystore.tests.home.validatecartitems -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

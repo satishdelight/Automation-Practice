@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="11" passed="10" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-04-25T18:54:28 EDT" name="Suite" finished-at="2020-04-25T18:54:59 EDT" duration-ms="31656">
+  <suite started-at="2020-04-29T09:33:25 EDT" name="Suite" finished-at="2020-04-29T09:34:29 EDT" duration-ms="63936">
     <groups>
     </groups>
-    <test started-at="2020-04-25T18:54:28 EDT" name="Test" finished-at="2020-04-25T18:54:59 EDT" duration-ms="31656">
-      <class name="com.mystore.tests.home.DeleteProduct">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.tests.home.DeleteProduct@4c1909a3]" started-at="2020-04-25T18:54:28 EDT" name="setup" finished-at="2020-04-25T18:54:54 EDT" duration-ms="26383" status="PASS">
+    <test started-at="2020-04-29T09:33:25 EDT" name="Test" finished-at="2020-04-29T09:34:29 EDT" duration-ms="63936">
+      <class name="com.mystore.tests.home.validatecartitems">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.tests.home.validatecartitems@67f639d3]" started-at="2020-04-29T09:33:25 EDT" name="setup" finished-at="2020-04-29T09:33:32 EDT" duration-ms="6709" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,135 +18,54 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="addproduct(java.lang.String)[pri:0, instance:com.mystore.tests.home.DeleteProduct@4c1909a3]" started-at="2020-04-25T18:54:58 EDT" name="addproduct" data-provider="SEARCH_PRODUCT" finished-at="2020-04-25T18:54:58 EDT" duration-ms="145" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[asdasdasdaasdasd1]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addproduct -->
-        <test-method signature="addproduct(java.lang.String)[pri:0, instance:com.mystore.tests.home.DeleteProduct@4c1909a3]" started-at="2020-04-25T18:54:58 EDT" name="addproduct" data-provider="SEARCH_PRODUCT" finished-at="2020-04-25T18:54:58 EDT" duration-ms="37" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[asdasdasdaasdasd2]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addproduct -->
-        <test-method signature="addproduct(java.lang.String)[pri:0, instance:com.mystore.tests.home.DeleteProduct@4c1909a3]" started-at="2020-04-25T18:54:58 EDT" name="addproduct" data-provider="SEARCH_PRODUCT" finished-at="2020-04-25T18:54:58 EDT" duration-ms="36" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[asdasdasdaasdasd3]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addproduct -->
-        <test-method signature="addproduct(java.lang.String)[pri:0, instance:com.mystore.tests.home.DeleteProduct@4c1909a3]" started-at="2020-04-25T18:54:58 EDT" name="addproduct" data-provider="SEARCH_PRODUCT" finished-at="2020-04-25T18:54:58 EDT" duration-ms="36" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[asdasdasdaasdasd4]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addproduct -->
-        <test-method signature="addproduct(java.lang.String)[pri:0, instance:com.mystore.tests.home.DeleteProduct@4c1909a3]" started-at="2020-04-25T18:54:58 EDT" name="addproduct" data-provider="SEARCH_PRODUCT" finished-at="2020-04-25T18:54:58 EDT" duration-ms="35" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[asdasdasdaasdasd5]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addproduct -->
-        <test-method signature="addproduct(java.lang.String)[pri:0, instance:com.mystore.tests.home.DeleteProduct@4c1909a3]" started-at="2020-04-25T18:54:58 EDT" name="addproduct" data-provider="SEARCH_PRODUCT" finished-at="2020-04-25T18:54:58 EDT" duration-ms="36" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[asdasdasdaasdasd6]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addproduct -->
-        <test-method signature="addproduct(java.lang.String)[pri:0, instance:com.mystore.tests.home.DeleteProduct@4c1909a3]" started-at="2020-04-25T18:54:59 EDT" name="addproduct" data-provider="SEARCH_PRODUCT" finished-at="2020-04-25T18:54:59 EDT" duration-ms="46" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[asdasdasdaasdasd7]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addproduct -->
-        <test-method signature="addproduct(java.lang.String)[pri:0, instance:com.mystore.tests.home.DeleteProduct@4c1909a3]" started-at="2020-04-25T18:54:59 EDT" name="addproduct" data-provider="SEARCH_PRODUCT" finished-at="2020-04-25T18:54:59 EDT" duration-ms="37" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[asdasdasdaasdasd8]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addproduct -->
-        <test-method signature="addproduct(java.lang.String)[pri:0, instance:com.mystore.tests.home.DeleteProduct@4c1909a3]" started-at="2020-04-25T18:54:59 EDT" name="addproduct" data-provider="SEARCH_PRODUCT" finished-at="2020-04-25T18:54:59 EDT" duration-ms="35" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[asdasdasdaasdasd9]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addproduct -->
-        <test-method signature="addproduct(java.lang.String)[pri:0, instance:com.mystore.tests.home.DeleteProduct@4c1909a3]" started-at="2020-04-25T18:54:59 EDT" name="addproduct" data-provider="SEARCH_PRODUCT" finished-at="2020-04-25T18:54:59 EDT" duration-ms="36" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[asdasdasdaasdasd10]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addproduct -->
-        <test-method signature="deleteOneProduct(java.lang.String)[pri:0, instance:com.mystore.tests.home.DeleteProduct@4c1909a3]" started-at="2020-04-25T18:54:59 EDT" name="deleteOneProduct" finished-at="2020-04-25T18:54:59 EDT" duration-ms="0" status="FAIL">
-          <exception class="org.testng.TestNGException">
+        <test-method signature="testCartItems()[pri:0, instance:com.mystore.tests.home.validatecartitems@67f639d3]" started-at="2020-04-29T09:33:32 EDT" name="testCartItems" finished-at="2020-04-29T09:34:29 EDT" duration-ms="56896" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[
-Cannot inject @Test annotated Method [deleteOneProduct] with [class java.lang.String].
-For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection]]>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"homepage_addtocart_xpath"}
+  (Session info: chrome=81.0.4044.129)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Satishs-MacBook-Air.local', ip: '2605:8d80:5e0:8459:6d9a:9d8d:8ef6:e6aa%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15', java.version: '11.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.129, chrome: {chromedriverVersion: 81.0.4044.20 (f006328e39a97..., userDataDir: /var/folders/cr/flq3l8cd1pg...}, goog:chromeOptions: {debuggerAddress: localhost:59656}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d4bb346921928bbdeb0f427141870e5e
+*** Element info: {Using=xpath, value=homepage_addtocart_xpath}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Cannot inject @Test annotated Method [deleteOneProduct] with [class java.lang.String].
-For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection
-at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:441)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
-at org.testng.internal.Parameters.createParameters(Parameters.java:712)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:879)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:744)
-at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
-at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:783)
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"homepage_addtocart_xpath"}
+  (Session info: chrome=81.0.4044.129)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Satishs-MacBook-Air.local', ip: '2605:8d80:5e0:8459:6d9a:9d8d:8ef6:e6aa%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15', java.version: '11.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.129, chrome: {chromedriverVersion: 81.0.4044.20 (f006328e39a97..., userDataDir: /var/folders/cr/flq3l8cd1pg...}, goog:chromeOptions: {debuggerAddress: localhost:59656}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d4bb346921928bbdeb0f427141870e5e
+*** Element info: {Using=xpath, value=homepage_addtocart_xpath}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at com.mystore.pages.login.HomePage.addProductToCart(HomePage.java:63)
+at com.mystore.tests.home.validatecartitems.testCartItems(validatecartitems.java:39)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
 at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
@@ -168,15 +87,15 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- deleteOneProduct -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.tests.home.DeleteProduct@4c1909a3]" started-at="2020-04-25T18:54:59 EDT" name="tearDown" finished-at="2020-04-25T18:54:59 EDT" duration-ms="195" status="PASS">
+        </test-method> <!-- testCartItems -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.tests.home.validatecartitems@67f639d3]" started-at="2020-04-29T09:34:29 EDT" name="tearDown" finished-at="2020-04-29T09:34:29 EDT" duration-ms="124" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.mystore.tests.home.DeleteProduct -->
+      </class> <!-- com.mystore.tests.home.validatecartitems -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

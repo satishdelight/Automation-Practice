@@ -9,24 +9,32 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">Test</a></td><td class="num">10</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">31,656</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">63,936</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.mystore.tests.home.DeleteProduct</td><td><a href="#m0">deleteOneProduct</a></td><td rowspan="1">1587855299515</td><td rowspan="1">0</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="10">com.mystore.tests.home.DeleteProduct</td><td><a href="#m1">addproduct</a></td><td rowspan="10">1587855298627</td><td rowspan="10">37</td></tr><tr class="passedeven"><td><a href="#m2">addproduct</a></td></tr><tr class="passedeven"><td><a href="#m3">addproduct</a></td></tr><tr class="passedeven"><td><a href="#m4">addproduct</a></td></tr><tr class="passedeven"><td><a href="#m5">addproduct</a></td></tr><tr class="passedeven"><td><a href="#m6">addproduct</a></td></tr><tr class="passedeven"><td><a href="#m7">addproduct</a></td></tr><tr class="passedeven"><td><a href="#m8">addproduct</a></td></tr><tr class="passedeven"><td><a href="#m9">addproduct</a></td></tr><tr class="passedeven"><td><a href="#m10">addproduct</a></td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.mystore.tests.home.validatecartitems</td><td><a href="#m0">testCartItems</a></td><td rowspan="1">1588167212173</td><td rowspan="1">56896</td></tr></tbody>
 </table>
-<h2>Test</h2><h3 id="m0">com.mystore.tests.home.DeleteProduct#deleteOneProduct</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.TestNGException: 
-Cannot inject @Test annotated Method [deleteOneProduct] with [class java.lang.String].
-For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection
+<h2>Test</h2><h3 id="m0">com.mystore.tests.home.validatecartitems#testCartItems</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;homepage_addtocart_xpath&quot;}
+  (Session info: chrome=81.0.4044.129)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Satishs-MacBook-Air.local&apos;, ip: &apos;2605:8d80:5e0:8459:6d9a:9d8d:8ef6:e6aa%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15&apos;, java.version: &apos;11.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.129, chrome: {chromedriverVersion: 81.0.4044.20 (f006328e39a97..., userDataDir: /var/folders/cr/flq3l8cd1pg...}, goog:chromeOptions: {debuggerAddress: localhost:59656}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d4bb346921928bbdeb0f427141870e5e
+*** Element info: {Using=xpath, value=homepage_addtocart_xpath}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.mystore.pages.login.HomePage.addProductToCart(HomePage.java:63)
+	at com.mystore.tests.home.validatecartitems.testCartItems(validatecartitems.java:39)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-... Removed 26 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.mystore.tests.home.DeleteProduct#addproduct</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>asdasdasdaasdasd2</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.mystore.tests.home.DeleteProduct#addproduct</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>asdasdasdaasdasd6</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">com.mystore.tests.home.DeleteProduct#addproduct</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>asdasdasdaasdasd9</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">com.mystore.tests.home.DeleteProduct#addproduct</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>asdasdasdaasdasd7</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">com.mystore.tests.home.DeleteProduct#addproduct</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>asdasdasdaasdasd3</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">com.mystore.tests.home.DeleteProduct#addproduct</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>asdasdasdaasdasd4</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m7">com.mystore.tests.home.DeleteProduct#addproduct</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>asdasdasdaasdasd5</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m8">com.mystore.tests.home.DeleteProduct#addproduct</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>asdasdasdaasdasd10</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m9">com.mystore.tests.home.DeleteProduct#addproduct</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>asdasdasdaasdasd8</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m10">com.mystore.tests.home.DeleteProduct#addproduct</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>asdasdasdaasdasd1</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
