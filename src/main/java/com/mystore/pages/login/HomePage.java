@@ -11,9 +11,12 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.mystore.interfaces.home.HomePageInterface;
 
+import com.mystore.common.utils.ProperitiesUtilBySudheer;
+
 public class HomePage implements HomePageInterface{
 	
 	WebDriver driver;
+	ProperitiesUtilBySudheer propUtil;
 	
 	public HomePage(WebDriver driver) {
 		// TODO Auto-generated constructor stub
@@ -22,33 +25,28 @@ public class HomePage implements HomePageInterface{
 	}
 	
 	
-
-	@FindBy(xpath=("//div[@class='shopping_cart']//b"))
-	WebElement clickCart;
-	
-	
 	//@FindBy(xpath=("//ul[@id=\"homefeatured\"]//a[@class=\"product-name\" and @title=\"Faded Short Sleeve T-shirts\"]"))
 	//WebElement clickProduct;
-
 	
-	
-	
-	
-
 	public void clickCart() {
 		// TODO Auto-generated method stub
+		propUtil = new ProperitiesUtilBySudheer("src/main/resources/object.properties");
+		WebElement clickCart =	driver.findElement(By.xpath(propUtil.getPropertyValue("homepage_clickcart_xpath")));
+		
 		clickCart.click();
 	}
 	
 	public List<String> addProductToCart() throws InterruptedException {
+		
+		propUtil = new ProperitiesUtilBySudheer("src/main/resources/object.properties");
 		List<String> selectedProductsFromPopular = new ArrayList<String>();
 		
 		selectedProductsFromPopular.add("Blouse");
 		selectedProductsFromPopular.add("Faded Short Sleeve T-shirts");
 		selectedProductsFromPopular.add("Printed Dress");
-		
+		 
  	
-		List<WebElement> allProductsFromPopular=driver.findElements(By.xpath("//ul[@id='homefeatured']//a[@class='product-name']"));
+		List<WebElement> allProductsFromPopular=driver.findElements(By.xpath(propUtil.getPropertyValue("homepage_popularproducts_xpath")));
 		
 		List<String> allProducts = new ArrayList<String>();
 		for (WebElement G : allProductsFromPopular) {
@@ -62,10 +60,10 @@ public class HomePage implements HomePageInterface{
 			{
 				driver.findElement(By.xpath("//ul[@id='homefeatured']//a[@class='product-name' and @title='"+selectedProductsFromPopular.get(i)+"']")).click();
 				Thread.sleep(20000);
-				driver.findElement(By.xpath("//span[contains(text(),'Add to cart')]")).click();
+				driver.findElement(By.xpath("homepage_addtocart_xpath")).click();
 				
 				Thread.sleep(2000);
-				driver.findElement(By.xpath("//span[@title='Continue shopping']")).click();
+				driver.findElement(By.xpath("homepage_continueshopping_xpath")).click();
 				Thread.sleep(2000);
 				driver.navigate().back();
 			}
