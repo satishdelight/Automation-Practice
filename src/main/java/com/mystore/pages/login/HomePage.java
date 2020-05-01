@@ -59,11 +59,11 @@ public class HomePage implements HomePageInterface{
 				
 			{
 				driver.findElement(By.xpath("//ul[@id='homefeatured']//a[@class='product-name' and @title='"+selectedProductsFromPopular.get(i)+"']")).click();
-				Thread.sleep(20000);
-				driver.findElement(By.xpath("homepage_addtocart_xpath")).click();
+				Thread.sleep(2000);
+				driver.findElement(By.xpath(propUtil.getPropertyValue("productpage_addtocart_xpath"))).click();
 				
 				Thread.sleep(2000);
-				driver.findElement(By.xpath("homepage_continueshopping_xpath")).click();
+				driver.findElement(By.xpath(propUtil.getPropertyValue("productpage_continueshopping_xpath"))).click();
 				Thread.sleep(2000);
 				driver.navigate().back();
 			}
