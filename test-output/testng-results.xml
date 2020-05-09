@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-05-01T11:58:51 EDT" name="Suite" finished-at="2020-05-01T11:59:19 EDT" duration-ms="28038">
+  <suite started-at="2020-05-08T19:56:12 EDT" name="Suite" finished-at="2020-05-08T19:56:54 EDT" duration-ms="42224">
     <groups>
     </groups>
-    <test started-at="2020-05-01T11:58:51 EDT" name="Test" finished-at="2020-05-01T11:59:19 EDT" duration-ms="28038">
-      <class name="com.mystore.tests.home.validatecartitems">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.tests.home.validatecartitems@5f16132a]" started-at="2020-05-01T11:58:51 EDT" name="setup" finished-at="2020-05-01T11:58:55 EDT" duration-ms="4596" status="PASS">
+    <test started-at="2020-05-08T19:56:12 EDT" name="Test" finished-at="2020-05-08T19:56:54 EDT" duration-ms="42224">
+      <class name="com.mystore.tests.home.search">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.tests.home.search@76f2bbc1]" started-at="2020-05-08T19:56:12 EDT" name="setup" finished-at="2020-05-08T19:56:44 EDT" duration-ms="32146" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,15 +18,55 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testCartItems()[pri:0, instance:com.mystore.tests.home.validatecartitems@5f16132a]" started-at="2020-05-01T11:58:55 EDT" name="testCartItems" finished-at="2020-05-01T11:59:19 EDT" duration-ms="23245" status="PASS">
+        <test-method signature="ResultFound(java.lang.String)[pri:0, instance:com.mystore.tests.home.search@76f2bbc1]" started-at="2020-05-08T19:56:44 EDT" name="ResultFound" data-provider="SEARCH_PRODUCT" finished-at="2020-05-08T19:56:48 EDT" duration-ms="3846" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Blouse]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testCartItems -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.tests.home.validatecartitems@5f16132a]" started-at="2020-05-01T11:59:19 EDT" name="tearDown" finished-at="2020-05-01T11:59:19 EDT" duration-ms="161" status="PASS">
+        </test-method> <!-- ResultFound -->
+        <test-method signature="ResultFound(java.lang.String)[pri:0, instance:com.mystore.tests.home.search@76f2bbc1]" started-at="2020-05-08T19:56:48 EDT" name="ResultFound" data-provider="SEARCH_PRODUCT" finished-at="2020-05-08T19:56:51 EDT" duration-ms="2687" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Printed Dress]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ResultFound -->
+        <test-method signature="ResultFound(java.lang.String)[pri:0, instance:com.mystore.tests.home.search@76f2bbc1]" started-at="2020-05-08T19:56:51 EDT" name="ResultFound" data-provider="SEARCH_PRODUCT" finished-at="2020-05-08T19:56:52 EDT" duration-ms="1671" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Printed Summer Dress]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ResultFound -->
+        <test-method signature="ResultFound(java.lang.String)[pri:0, instance:com.mystore.tests.home.search@76f2bbc1]" started-at="2020-05-08T19:56:52 EDT" name="ResultFound" data-provider="SEARCH_PRODUCT" finished-at="2020-05-08T19:56:54 EDT" duration-ms="1537" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Printed Chiffon Dress]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ResultFound -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.tests.home.search@76f2bbc1]" started-at="2020-05-08T19:56:54 EDT" name="tearDown" finished-at="2020-05-08T19:56:54 EDT" duration-ms="151" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.mystore.tests.home.validatecartitems -->
+      </class> <!-- com.mystore.tests.home.search -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

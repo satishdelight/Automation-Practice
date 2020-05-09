@@ -9,4 +9,6 @@ public interface HomePageInterface {
 	public List<String> addProductToCart() throws InterruptedException;
 	
 	public void deleteProductFromCart(String ProductToBeDeleted);
+	
+	public void searchBox(String searchText);
 }

@@ -6,9 +6,9 @@
       <class name="com.mystore.tests.home.DeleteProduct">
         <methods>
           <include name="deleteOneProduct"/>
-          <include name="setup"/>
           <include name="tearDown"/>
           <include name="addproduct"/>
+          <include name="setup"/>
         </methods>
       </class> <!-- com.mystore.tests.home.DeleteProduct -->
     </classes>
