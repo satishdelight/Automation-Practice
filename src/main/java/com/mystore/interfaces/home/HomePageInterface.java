@@ -11,4 +11,7 @@ public interface HomePageInterface {
 	public void deleteProductFromCart(String ProductToBeDeleted);
 	
 	public void searchBox(String searchText);
+	
+	public void signin();
+	
 }

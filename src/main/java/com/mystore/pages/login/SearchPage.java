@@ -37,7 +37,7 @@ public class SearchPage implements SearchPageInterface{
 			
 			result.containsAll(toBeSearched);
 				
-				return searchText;
+		    return searchText;
 				
 		}
 	

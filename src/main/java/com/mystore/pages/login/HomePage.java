@@ -12,7 +12,7 @@ import com.mystore.interfaces.home.HomePageInterface;
 
 import com.mystore.common.utils.ProperitiesUtilBySudheer;
 
-public class HomePage implements HomePageInterface{
+public  class HomePage implements HomePageInterface{
 	
     
 	ProperitiesUtilBySudheer propUtil = new ProperitiesUtilBySudheer("object.properties");
@@ -22,7 +22,7 @@ public class HomePage implements HomePageInterface{
 		// TODO Auto-generated constructor stub
 		this.driver=driver;
 		PageFactory.initElements(driver, this);   
-	}
+	}  
 	
 	
 	//@FindBy(xpath=("//ul[@id=\"homefeatured\"]//a[@class=\"product-name\" and @title=\"Faded Short Sleeve T-shirts\"]"))
@@ -39,6 +39,7 @@ public class HomePage implements HomePageInterface{
 	public List<String> addProductToCart() throws InterruptedException {
 		
 		propUtil = new ProperitiesUtilBySudheer("src/main/resources/object.properties");
+		
 		List<String> selectedProductsFromPopular = new ArrayList<String>();
 		
 		selectedProductsFromPopular.add("Blouse");
@@ -89,6 +90,12 @@ public class HomePage implements HomePageInterface{
 		WebElement password = driver.findElement(By.xpath(value));
 		password.clear();
 		((WebElement) password).sendKeys(searchText);
+		
+		/*
+		 * WebElement o = driver.findElement(By.xpath("//span[text()='My account']"));
+		 * if (o.isDisplayed()) { System.out.println(o); }
+		 */
+		
 	
 		//enter text to be searched
 		WebElement clickSearchIcon = driver.findElement(By.xpath(propUtil.getPropertyValue("homepage_searchbutton_xpath")));
@@ -103,5 +110,14 @@ public class HomePage implements HomePageInterface{
 	}
 	
 	
+	//navigaion to authentication page
+	public void signin()
+	{
+		
+		WebElement clicklogin = driver.findElement(By.xpath(propUtil.getPropertyValue("homepage_clickSign_xpath")));
+		clicklogin.click();
+		
+	
+	}
 
 }

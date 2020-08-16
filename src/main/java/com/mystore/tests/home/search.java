@@ -28,7 +28,9 @@ public class search extends BaseTest{
     public Object[][] createData1() throws Exception{
         Object[][] retObjArr=commonMethodObj.getTableArray("test-data/AmazonTestData.xls",
                 "Products", "searchProduct");
-        return(retObjArr);
+		return (retObjArr);
+       
+        
     }
     
    
