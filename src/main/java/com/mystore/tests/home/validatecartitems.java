@@ -44,7 +44,4 @@ CommonMethods commonMethodObj=new CommonMethods();
 	 addedProductToCart.containsAll(cartProducts);
      	
 	}
-	
-	
-
 }

@@ -71,12 +71,11 @@ public class DeleteProduct extends BaseTest {
         
          Thread.sleep(2000);
 		
-		
-        driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS) ;
+         driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS) ;
         
-        //deleteProduct
+         //deleteProduct
        
-        homePage.deleteProductFromCart("Blouse");
+         homePage.deleteProductFromCart("Blouse");
 		 
 	}
 }

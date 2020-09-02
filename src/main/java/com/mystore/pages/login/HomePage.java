@@ -54,7 +54,7 @@ public  class HomePage implements HomePageInterface{
 			allProducts.add(G.getText());	
 		}
 		
-		//if(allProducts.containsAll(selectedProductsFromPopular)) {
+		//if(allProducts.containsAll(selectedProductsFromPotpular)) {
 			
 			for(int i=0;i<selectedProductsFromPopular.size();i++)
 				

@@ -34,12 +34,12 @@ public class search extends BaseTest{
     }
     
    
+   
+     @Test(dataProvider="SEARCH_PRODUCT")
     
-    @Test(dataProvider="SEARCH_PRODUCT")
-    
-	public void ResultFound(String searchText) {
+	 public void ResultFound(String searchText) {
 		
-		SearchPage searchPageObj=new SearchPage(driver);
+	    SearchPage searchPageObj=new SearchPage(driver);
 		
 		HomePage homePageObj=new HomePage(driver);
 		
